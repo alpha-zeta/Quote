@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.quote {
+  width: 400px;
+  background-color: rgba(95, 154, 241, 0.671);
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+#quotePar,
+#author {
+  text-align: center;
+  color: rgba(234, 238, 12, 0.671);
+  text-shadow: rgb(73, 73, 73) 0.1em 0.1em 0.2em;
+  font-size: 25px;
+  font-weight: 900;
+  z-index: 1;
+}
+#author {
+  color: rgb(64, 103, 162);
+  text-shadow: rgb(64, 103, 162) 0.05em 0.05em 0.15em;
+}
+/* rgba(98, 199, 136, 0.979) */
+#quoteImg {
+  position: absolute;
+  height: 128px;
+  width: 128px;
+  z-index: -1;
+}
